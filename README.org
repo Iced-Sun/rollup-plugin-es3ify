@@ -3,10 +3,11 @@
 * Install
 
 #+BEGIN_SRC shell
-npm i rollup-plugin-uglify -D
+npm i rollup-plugin-es3ify -D
 #+END_SRC
 
 * Usage
+
 #+BEGIN_SRC js
 import { rollup } from 'rollup';
 import es3ify from 'rollup-plugin-es3ify';
