@@ -22,7 +22,7 @@ export default function es3ify(options = {}) {
 				result.code = result.code.slice(0, commentPos).trim();
 			}
 
-			return {code: result, map: result.map || null};
+			return {code: result.code || result, map: result.map || null};
 
 		}
 	};
