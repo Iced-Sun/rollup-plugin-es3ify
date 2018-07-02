@@ -22,7 +22,8 @@ export default function es3ify(options = {}) {
 				result.code = result.code.slice(0, commentPos).trim();
 			}
 
-			return result;
+			return {code: result, map: null};
+
 		}
 	};
 }

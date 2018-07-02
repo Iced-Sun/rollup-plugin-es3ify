@@ -1,7 +1,7 @@
 {
 	"name": "rollup-plugin-es3ify",
 	"description": "Rollup plugin to es3ify generated bundle",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"devDependencies": {
 		"rollup": "^0.31.1",
 		"rollup-plugin-buble": "^0.12.1"
