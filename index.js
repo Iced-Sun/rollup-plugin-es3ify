@@ -4,7 +4,7 @@ export default function es3ify(options = {}) {
 	return {
 		name: 'es3ify',
 
-		transformBundle(code) {
+		renderChunk(code) {
 			options.fromString = true;
 			delete options.inSourceMap;
 			delete options.outSourceMap;
